@@ -81,11 +81,11 @@ spring:
     schema: classpath*:db/mysql/schema.sql
     data: classpath*:db/mysql/data.sql
     url: jdbc:mysql://mysql-petclinic-0cdbde.mysql.database.azure.com:3306/petclinic?useSSL=true
-    username: myadmin
-    password: Mypassword#
+    #username: myadmin
+    #password: Mypassword#
     initialization-mode: ALWAYS
 
-cloud:
+  cloud:
        azure:
          keyvault:
            secret:
